@@ -24,4 +24,4 @@ def newtonRalphson(g,x0,eps,delta,itermax):
             raise ValueError('Error: Divergence')
         x=x_next#Update current iteration
         i+=1#Update iteration
-        raise ValueError('Error: Maximum Iteratons reached')        
+    raise ValueError('Error: Maximum Iteratons reached')        
